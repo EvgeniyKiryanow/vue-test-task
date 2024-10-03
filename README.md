@@ -3,9 +3,6 @@
 ## Build Setup
 
 ```bash
-# install dependencies
-$ yarn install
-
 # move to the dir
 $ cd vue-test-task 
 
@@ -13,6 +10,9 @@ $ cd vue-test-task
 
 # use node version  "^18.12.0 || ^20.9.0 || >=22.0"
 $ nvm use  18.12.0
+
+# install dependencies
+$ yarn install
 
 # serve with hot reload at localhost:3000
 $ yarn dev
