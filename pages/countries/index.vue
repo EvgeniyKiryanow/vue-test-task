@@ -71,6 +71,7 @@ export default Vue.extend({
   },
   async mounted() {
     try {
+      console.log(process.env, 'process.env')
       const response = await this.$axios.$get(`${process.env.COUNTRIES_API}`)
 
       this.countries = response.map(
