@@ -6,6 +6,14 @@
 # install dependencies
 $ yarn install
 
+# move to the dir
+$ cd vue-test-task 
+
+# delete .example from .env file
+
+# use node version  "^18.12.0 || ^20.9.0 || >=22.0"
+$ nvm use  18.12.0
+
 # serve with hot reload at localhost:3000
 $ yarn dev
 
